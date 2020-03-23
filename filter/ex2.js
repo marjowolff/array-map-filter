@@ -26,6 +26,7 @@ Expected OUTPUT for this sample:
 */
 
 function keepStarks(names) {
+  return names.filter(name => name.endsWith('Stark'))
 }
 
 // DON'T TOUCH THIS!
